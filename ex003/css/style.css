@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fffaf2;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color: darkblue;
+}
+tr {
+    background-color: #f8efe9;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;;
+}
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
