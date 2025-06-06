@@ -1,0 +1,17 @@
+body {
+    background-color: #fffaf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+table {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+}
