@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Técnica</title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <header>
+        <h1><b>Escola Técnica</b></h1>
+    </header>
+    <table>
+        <tr>
+            <td rowspan="2" bgcolor="blue" width="100px" id="div">                <a href="#" target="_blank" rel="noopener noreferrer">Perfil</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Vagas</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Processos</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Contato</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Sair</a></td>
+            <td id="div">
+            <td  rowspan="4" bgcolor="blue" width="100px"></td>
+            <td colspan="5">
+                <h1><b>Se cadastre em nosso site</b></h1>
+                <form action="src/index.js" method="get">
+                    Nome completo: <input type="text" name="" id="name" placeholder="Digite seu nome" required>
+                    <br>
+                    Data de Nascimento: <input type="date" name="" id="year" required>
+                    <br>
+                    CPF: <input type="number" name="" id="cpf" placeholder="Somente números" required>
+                    <br>
+                    Gênero: <select name="" id="gen" required>
+                        <option value="" disabled selected hidden>Selecione...</option>
+                        <option value="homem">Masculino</option>
+                        <option value="mulher">Feminino</option>
+                    </select>
+                    <br>
+                    e-mail: <input type="email" name="" id="email" required>
+                    <br>
+                    Telefone: <input type="tel" name="" id="tel" placeholder="(XX) XXXXX-XXXX" required>
+                    <br>
+                    Endereço: <input type="text" name="" id="localization" required>
+                    <br>
+                    Nível de Escolaridade: <select name="" id="escolarizationLevel" required>
+                        <option value="" disabled selected hidden>Selecione...</option>
+                        <option value="Ensino Fundamental">Ensino Fundamental</option>
+                        <option value="Ensino Fundamental">Ensino Médio</option>
+                        <option value="Ensino Fundamental">Ensino Superior</option>
+                    </select>
+                    <br>
+                    Instituição de Ensino: <input type="text" name="" id="IE" required>
+                    Curso (se aplicável) <input type="text" name="" id="curso" required>
+                    <br>
+                    
+                    Disponibilidade:
+                        <label for="manha">Manhã</label>
+                        <input type="checkbox" name="" id="manha">
+                        <label for="tarde">Tarde</label>
+                        <input type="checkbox" name="" id="tarde">
+                        <label for="noite">Noite</label>
+                        <input type="checkbox" name="" id="noite">
+                    <br>
+                    Porque você deseja participar?
+                    <textarea name="" id="txt" cols="40" rows="5" placeholder="Digite sua resposta"></textarea>
+                    <br>
+                    Envie seu curriculo (PDF ou DOC):
+                    <input type="file" name="" id="file" required>
+                    <br>
+        
+                    <input type="submit" value="Enviar inscrição">
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>
+                <td id="div">
+                    <p>Como é estudar Aqui?</p>
+                </td>
+                <td rowspan="2" bgcolor="blue" width="100px"></td>
+                <td id="div">
+                    <p>Histórias de sucesso</p>
+                </td>
+            </td>
+        </tr>
+
+        </form>
+    </table>
+    <footer>
+
+    </footer>
+</body>
+</html>
