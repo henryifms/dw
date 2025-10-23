@@ -1,0 +1,103 @@
+.principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.div1 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+    grid: 3;
+}
+.div2 {
+
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+}
+.div1-1{
+    width: 100%;
+    height: 25%;
+    background-color: orange;
+}
+.div1-2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.div1-2-1 {
+    width: 35%;
+    height: 100%;
+    background-color: blue;
+}
+.div1-2-2 {
+    width: 34%;
+    height: 100%;
+    background-color: yellow;
+}
+.div1-2-3 {
+    width: 34%;
+    height: 100%;
+    background-color: gray;
+}
+.div1-3{
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+}
+.div1-4{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+.div1-5{
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+}
+
+/* .amarelo-1{
+    width: 20%;
+    height: 20%;
+    background-color: yellow;
+}
+.amarelo-2{
+    width: 20%;
+    height: 20%;
+    background-color: yellow;
+} */
+.div2-1 {
+    width: 50%;
+    height: 100%;
+}
+.div2-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 74%;
+    align-items: end;
+}
+.amarelo-1{
+    justify-content: end;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.amarelo-2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+
+
+
+
